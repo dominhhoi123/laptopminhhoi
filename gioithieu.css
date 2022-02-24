@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: #24A19C;
+    color: black;
+    line-height: 40px;
+}
+.menu-logo{
+    height: 50px;
+    position: relative;
+    background: #eee;
+    line-height: 25px;
+}
+.menu-logo .logo{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+.menu-logo nav{
+    position: absolute;
+    top: 13px;
+    right: 400px;
+    
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    
+}
+.menu-logo nav a:hover{
+    color: #96CEB4;
+    font-weight: bold;
+    transition: all .5s linear;
+    text-align: center;
+}
+.banner{
+   width: 80%; 
+   margin:0 auto;
+   border-radius: 30;
+   margin-top:110px;
+}
+
+
+.banner img{
+    max-width:100%;
+}
+body{
+    text-align: center;
+}
+.chu{
+    background-color:#E5E3C9;
+    color: black;
+    
+}
+.titlepage{
+    background-color:#008E89;
+    color: black;
+   
+}
